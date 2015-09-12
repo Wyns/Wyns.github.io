@@ -1,4 +1,4 @@
-.background{
+#background{
     background-image: url("/home/paul/Documents/moringadata/Frontend_css/paul/images/green.jpg");
 
     padding-bottom: 20%;
@@ -8,10 +8,78 @@
      background-repeat:no-repeat;
 }
 
-.background h1,h3{
+#background h1,h3{
     text-align: center;
 }
+#background img.image{
+    margin-left: auto;
+    margin-right: auto'
+}
+/*
+.wrapper{
+    
+    bottom: 0;
+    right: auto;
+    width: auto
+    width: 300px;
+    text-align: right;
+}
+*/
+
+.marquee {
+    bottom: 0;
+    
+    width: 300px;
+     font-size: 50px;
+    color: white;
+    white-space: nowrap;
+    -webkit-animation: rightThenLeft 4s linear;
+}
+
+
 .me{
      display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto 
+}
+#resume{
+     background-image: url("/home/paul/Documents/moringadata/Frontend_css/paul/images/green.jpg");
+    color: white
+}
+.portfolio .col
+{
+    margin-bottom: 24px;
+}
+
+.portfolio h5
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.portfolio h6
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.portfolio hr
+{
+    width: 40px;
+    margin-bottom: 45px;
+}
+
+.portfolio .portfolio-holder
+{
+    clear: both;
+    text-align: center;
+}
+
+.portfolio img
+{
+    width: 33%;
+    display: inline-block;
+    float: left;
+}
