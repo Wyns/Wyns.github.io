@@ -1,5 +1,5 @@
 #background{
-    background-image: url("/home/paul/Documents/moringadata/Frontend_css/paul/images/green.jpg");
+    background-image: url("/images/pau.jpg");
 
     padding-bottom: 20%;
     padding-top: 1%;
@@ -43,7 +43,7 @@
     margin-right: auto 
 }
 #resume{
-     background-image: url("/home/paul/Documents/moringadata/Frontend_css/paul/images/green.jpg");
+     background-image: url("/images/gren.jpg");
     color: white
 }
 .portfolio .col
