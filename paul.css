@@ -1,10 +1,10 @@
 #background{
-    background-image: url("/images/pau.jpg");
+    background-image: url("/images/BG E.jpg");
 
-    padding-bottom: 20%;
+    padding-bottom: 10%;
     padding-top: 1%;
     background-size: cover;
-    
+    background-size: cover;
      background-repeat:no-repeat;
 }
 
@@ -14,6 +14,11 @@
 #background img.image{
     margin-left: auto;
     margin-right: auto'
+}
+
+
+#about{
+    padding-bottom: 30px;
 }
 /*
 .wrapper{
@@ -43,16 +48,17 @@
     margin-right: auto 
 }
 #resume{
-     background-image: url("/images/gren.jpg");
-    color: white;
+/*     background-image: url("/images/gren.jpg");*/
+    background-color: azure;
+    color: black;
     padding-top: 10px;
     padding-bottom: 50px;
         
 }
-#resume .res{
+.res{
     text-align:center;
-    padding-bottom: 40px;
-    text-decoration: underline;
+    padding-bottom: 0px;
+    
 }
 .portfolio .col
 {
