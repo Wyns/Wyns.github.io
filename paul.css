@@ -44,7 +44,15 @@
 }
 #resume{
      background-image: url("/images/gren.jpg");
-    color: white
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 50px;
+        
+}
+#resume .res{
+    text-align:center;
+    padding-bottom: 40px;
+    text-decoration: underline;
 }
 .portfolio .col
 {
