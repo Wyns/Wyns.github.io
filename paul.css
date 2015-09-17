@@ -19,6 +19,9 @@
 
 #about{
     padding-bottom: 30px;
+    background-color:lightgrey;
+    color:black;
+    
 }
 /*
 .wrapper{
@@ -38,7 +41,7 @@
      font-size: 50px;
     color: white;
     white-space: nowrap;
-    -webkit-animation: rightThenLeft 4s linear;
+    -webkit-animation: rightThenLeft 3s linear;
 }
 
 
@@ -49,7 +52,7 @@
 }
 #resume{
 /*     background-image: url("/images/gren.jpg");*/
-    background-color: azure;
+    background-color:azure;
     color: black;
     padding-top: 10px;
     padding-bottom: 50px;
@@ -85,15 +88,20 @@
     margin-bottom: 45px;
 }
 
+/*
 .portfolio .portfolio-holder
 {
     clear: both;
     text-align: center;
 }
+*/
 
-.portfolio img
+.materialboxed
 {
-    width: 33%;
-    display: inline-block;
-    float: left;
+    width: 109%;
+    height: 120%;
+    margin: 0px 1px;
+        padding: 20px
+
 }
+
