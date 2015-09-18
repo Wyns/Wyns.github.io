@@ -1,5 +1,5 @@
 #background{
-    background-image: url("/images/BG E.jpg");
+    background-image: url("/images/BG%20E.jpg");
 
     padding-bottom: 10%;
     padding-top: 1%;
@@ -10,6 +10,7 @@
 
 #background h1,h3{
     text-align: center;
+    font-family: ;
 }
 #background img.image{
     margin-left: auto;
@@ -19,7 +20,7 @@
 
 #about{
     padding-bottom: 30px;
-    background-color:lightgrey;
+    
     color:black;
     
 }
@@ -34,6 +35,15 @@
 }
 */
 
+.marque {
+    bottom: 0;
+    font-family: cursive;
+    width: 300px;
+     font-size: 50px;
+    color: white;
+    white-space: nowrap;
+    -webkit-animation: rightThenLeft 4s linear;
+}
 .marquee {
     bottom: 0;
     font-family: cursive;
@@ -41,7 +51,7 @@
      font-size: 50px;
     color: white;
     white-space: nowrap;
-    -webkit-animation: rightThenLeft 3s linear;
+    -webkit-animation: leftThenRight 4s linear;
 }
 
 
@@ -49,6 +59,10 @@
      display: block;
     margin-left: auto;
     margin-right: auto 
+}
+.photo{
+margin-left: auto;
+    margin-right: auto;
 }
 #resume{
 /*     background-image: url("/images/gren.jpg");*/
@@ -63,10 +77,13 @@
     padding-bottom: 0px;
     
 }
-.portfolio .col
-{
-    margin-bottom: 24px;
+.portfolio{
+    background-color: lightgrey;
+    background-size: cover;
+    
 }
+
+
 
 .portfolio h5
 {
@@ -75,8 +92,7 @@
     margin-bottom: 15px;
 }
 
-.portfolio h6
-{
+.portfolio h6 {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 45px;
@@ -100,7 +116,7 @@
 {
     width: 109%;
     height: 120%;
-    margin: 0px 1px;
+    
         padding: 20px
 
 }
