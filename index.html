@@ -183,10 +183,21 @@ $(document).ready(function(){
           <div class="container">
             <div class="row">
               <div class="left form col l6 s12 white" id="contact">
+<!--
+                  <form action="//formspree.io/wainspaul@gmail.com" style="">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
+-->
                   <script language="javascript">var sa_email_id = '62015-034b3';var sa_sent_text = 'Thank you for contacting us. I will get back to you soon.';</script>
 <script language="javascript" src="http://s1.smartaddon.com/sa_htmlform.js"></script>
 <div id="sa_contactdiv">
-<form name=sa_htmlform style="margin:0px" onsubmit="return sa_contactform()">
+<!--<form name=sa_htmlform style="margin:0px" onsubmit="return sa_contactform()">-->
+    
+    <form action="//formspree.io/wainspaul@gmail.com"
+           method="POST">
+          
 <table style="color:black;">
 <tr><td>Name:<br><input type="text" name="name" /></td></tr>
 <tr><td>E-mail Address: <span style="color:#D70000">*</span><br><input type="text" name="email" required="true" /></td></tr>
